@@ -1,0 +1,7 @@
+.secao-capa {
+  background-image: url('carro/public/assets/pexels-charles-pragnell-1313315-2524416.jpg');
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
