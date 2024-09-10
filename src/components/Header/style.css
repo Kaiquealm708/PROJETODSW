@@ -13,6 +13,7 @@
   justify-content: center;
   align-items: center;
   max-width: 150px;
+  margin-left: -40%;
 }
 
 nav a {
@@ -22,12 +23,10 @@ nav a {
 .header nav ul li a{
   text-transform: uppercase;
   font-weight: 500;
-  position: relative;
 }
   
 .header nav ul li a::after{
   content: "";
-  display: block;
   position: absolute;
   bottom: 0;
   background-color: #000000;
@@ -36,8 +35,10 @@ nav a {
   transition: 0.3s;
 }
   
-.header nav ul li a::hover:after{
-  width: 80%;
+.header a:hover {
+  color: black;
+  font-weight: bold;
+  transition-delay: 5.5ms;
 }
 
 .header nav ul {
@@ -46,7 +47,11 @@ nav a {
   gap: 20px;
 }
 
-@media (max-width: 480px) {
+.header ul {
+  position: absolute;
+}
+
+@media (max-width: 500px) {
   .header nav ul {
     justify-content: center;
     display: none;
@@ -57,3 +62,4 @@ nav a {
   padding: 3px 6px;
   border-radius: 5px;
 }
+

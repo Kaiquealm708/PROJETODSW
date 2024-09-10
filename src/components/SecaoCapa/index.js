@@ -3,12 +3,12 @@ import './style.css';
 
 const SecaoCapa = () => {
     return (
-        <section classname ='secao-capa'>
-            <div classname='capa center'>
+        <section className ='secao-capa'>
+            <div className='capa center'>
                 <div className='texto-capa'>
                     <p>Preços baixos em</p>
-                    <h1>carros semi novos e novos</h1>
-                    <p>voce so encontra aqui</p>                
+                    <h1>Carros Novos e Semi-Novos</h1>
+                    <p>Você só encontra aqui!</p>         
                 </div>
             </div>
         </section>
