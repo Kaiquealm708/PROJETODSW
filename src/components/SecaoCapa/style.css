@@ -43,6 +43,8 @@
 
 .texto-capa p {
   font-size: 2rem;
+  padding-left: 10px;
+  background-color: rgb(30, 114, 209);
 }
 
 @media (max-widht: 768px) {
