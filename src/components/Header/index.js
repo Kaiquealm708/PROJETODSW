@@ -7,11 +7,12 @@ const Header = () => {
             <div className='header center'>
                 <picture>
                     <img src='./assets/logo.png' alt='logo fusca'/>
+                    <h2 className='title-site'>BuscoFusca</h2>
                 </picture>
 
                 <nav>
                     <ul>
-                        <li>
+                        <li >
                             <a href= '#pro'>Produtos</a>
                         </li>
 
