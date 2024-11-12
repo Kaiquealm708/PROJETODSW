@@ -41,11 +41,12 @@
 
 .card-carros h3 {
   color: black;
+  font-size: 2.1rem;
 }
 
 .card-carros img {
   width: 350px; 
-  height: auto;
+  height: 350px;
   box-shadow: 10px 10px 10px rgb(48, 46, 46);
 }
 
@@ -106,3 +107,4 @@
     font-size: 24px; 
   }
 }
+
