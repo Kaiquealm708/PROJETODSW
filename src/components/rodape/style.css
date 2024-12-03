@@ -1,0 +1,47 @@
+/* Estilos para o Rodapé */
+#footer {
+  background-color: #333;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.footer-content p {
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+.social-links {
+  margin: 20px 0;
+}
+
+.social-links a {
+  margin: 0 10px;
+}
+
+.social-links img {
+  width: 30px;
+  height: 30px;
+  transition: transform 0.3s ease;
+}
+
+.social-links a:hover img {
+  transform: scale(1.2);
+}
+
+/* Responsividade para dispositivos móveis */
+@media (max-width: 768px) {
+  .social-links {
+    display: flex;
+    justify-content: center;
+  }
+
+  .social-links a {
+    margin: 0 15px;
+  }
+}

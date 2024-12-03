@@ -21,3 +21,21 @@ img{
   margin-left: auto;
   margin-right: auto;
 }
+
+@media (max-width: 768px) { 
+ .header{
+  width: 60%;
+  }
+  .header picture{
+    width: 25%;
+  }
+  .header ul{
+    display: flex;
+    width: 25%;
+    gap:0px;
+  }
+  .text p{
+    border: 0;
+    width: 100%;
+  }
+}
