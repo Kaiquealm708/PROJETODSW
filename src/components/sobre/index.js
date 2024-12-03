@@ -22,7 +22,7 @@ const SecaoSobre = () => {
 
             <div className='elementos-sobre'>
                 <picture>
-                    <img src='./assets/fusca1.jpg' alt='Volkswagen Fusca Clássico' />
+                    <img src='./assets/BuscoFusca.png' alt='Volkswagen Fusca Clássico' />
                 </picture>
             </div>
         </section>

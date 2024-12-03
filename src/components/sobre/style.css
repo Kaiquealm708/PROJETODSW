@@ -36,11 +36,11 @@
 }
 
 .elementos-sobre img {
-  max-width: 40%;
+  max-width: 50%;
   height: auto;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   display: flex;
-  margin-left: 29vw;
+  margin-left: 13vw;
   display: block;
 }
